@@ -4,10 +4,10 @@
 
  $database = new Medoo([
 	'database_type' => 'mysql',
-	'database_name' => 'appteste',
-	'server' => 'mysql873.umbler.com',
-	'username' => 'appteste',
-	'password' => 'guilazx123'
+	'database_name' => '',
+	'server' => '',
+	'username' => '',
+	'password' => ''
 ]);
 
 	

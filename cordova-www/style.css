@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;}
+*{-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;}
+html,body{overflow-x: hidden;}
+body{background: rgb(243, 243, 243);font-family: 'Roboto', sans-serif;}
+
+
+header{width: 100vw; text-align: center; background: #fff; position: sticky; z-index: 2; top: 0;}
+header p{padding: 20px 0; font-size: 15px;}
+footer ul li{list-style: none; font-size: 18px;}
+footer{position: fixed; bottom:0; z-index: 1; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);}
+footer ul{width: 100vw; display: flex; justify-content: space-around; background: #fff; padding: 20px 0px;}
+footer a{text-decoration: none; color: #000;}
+
+.card{width: 90%; display: grid; grid-template-columns: 50px auto; margin: 0 auto; margin-bottom: 50px;}
+.card .photo img{border-radius: 100% 0 0 100%; width: 100%; height: auto; position: sticky; top: 60px;}
+.card .post{background: #fff; color:#000; border-radius: 0px 8px 8px 8px;  padding: 20px 20px; box-shadow: 0 0 20px 0 #b8b8b830; text-transform: none; font-size: 14px;
+}
+
+.container-feed {margin-top: 30px; margin-bottom: 100px;}
+.card .post .author{margin-top: 15px; font-size: 12px; color: #a2a2a2; font-weight: 300;}
+.card .post hr {margin-bottom: 5px; border: 0px; border-bottom: 1px solid #f9f9f9; height: 1px; margin-top: 15px;}
+
+.container-perfil{width: 80%; margin: 0 auto; margin-top: 30px; margin-bottom: 50px;}
+.container-perfil .perfil{display: grid; grid-template-columns: 100px auto;}
+.container-perfil .perfil .info{padding: 5px 20px; margin-bottom: 20px;}
+.container-perfil .perfil .desc button{background: transparent; border: 1px solid #50d847; padding: 3px 5px; color: #50d847; border-radius: 5px; margin-top: 9px;}
+.container-perfil .perfil .info .name{font-size: 20px; font-weight: bold;}
+.container-perfil .perfil .photo img{border-radius: 100%; width: 100%; height: auto;}
+
+.container-perfil .menu{background: #fff; border-radius: 8px;}
+.container-perfil .menu ul li{list-style: none; padding: 20px 30px; border-bottom: 1px solid #f5f5f5;}
+
+.container-post{width: 85%; background: #fff; margin: 0 auto; border-radius: 5px; padding: 20px; margin-bottom: 20px;margin-top: 30px; margin-bottom: 50px;}
+.container-post textarea{width:100%; height: auto; padding: 20px;    box-sizing: border-box;}
+.container-post button{background: #00adff; color: #fff; width: 100%; padding: 20px; border: 0;}
+.container-post button:active{background: #1896d2;}

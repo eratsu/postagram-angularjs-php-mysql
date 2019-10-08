@@ -1,0 +1,26 @@
+<!-- <h1>feed</h1> -->
+
+<div >
+  <div class="container-feed" ng-controller="feedCtrl">
+    <div class="card" ng-repeat="x in names">
+      <div class="photo">
+        <img src="http://www.guilherme.in/backapp/{{x.photo}}" alt="">
+      </div>
+      <div class="post">
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam
+        dui eu volutpat faucibus. Integer at turpis placerat, faucibus nibh
+        quis, accumsan nulla. Curabitur sed ante eget orci mollis feugiat eget
+        in mauris. Nullam magna eros, molestie a nulla vel, egestas finibus mi.
+        Ut blandit lectus et ipsum auctor lobortis. Praesent felis libero,
+        feugiat quis mollis eu, malesuada sed sem. Interdum et malesuada fames
+        ac ante ipsum primis in faucibus. Ut non orci felis. Sed vitae mi vitae
+        nisl bibendum interdum. Curabitur at metus lacinia, varius libero a,
+        luctus nisl. Pellentesque bibendum porttitor metus et bibendum.
+        Suspendisse commodo convallis mi, sed pulvinar tortor mollis sit amet.
+        <hr />
+        <p class="author">posted by: {{ x.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
